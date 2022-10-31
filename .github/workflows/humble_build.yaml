@@ -1,4 +1,4 @@
-name: Build
+name: Humble Build
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  build-and-test:
+  humble-build:
     runs-on: ubuntu-20.04
     strategy:
       fail-fast: false
