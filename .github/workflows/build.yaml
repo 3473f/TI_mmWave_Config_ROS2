@@ -25,6 +25,7 @@ jobs:
           package-name: 
             ti_mmwave_config
             ti_mmwave_config_interface
+          skip-tests: true
           vcs-repo-file-url: https://raw.githubusercontent.com/ros2/ros2/humble/ros2.repos
       - uses: actions/upload-artifact@v1
         with:
