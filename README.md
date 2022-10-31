@@ -1,9 +1,12 @@
 # TI mmWave Config
 
-## Overview
-The TI mmWave Config package is used to configure and control TI mmWave radar sensors.
+The TI mmWave Config provides a ROS2 interface to configure and control TI mmWave radar sensors. The package was tested under ROS2 Galactic and Humble on Ubuntu 20.04 and Ubuntu 22.04 respectively.
 
-The package was tested under ROS2 Galactic and Humble on Ubuntu 20.04 and Ubuntu 22.04 respectively.
+## Build Status
+
+| ROS2 Version  | Galactic | Humble |
+| ------------- | ------------- | ------------- |
+| Build  |   | ![humble_build](https://github.com/3473f/TI_mmWave_Config_ROS2/actions/workflows/build.yaml/badge.svg) |
 
 ## Installation
 1. Install ROS Galactic or Humble.
