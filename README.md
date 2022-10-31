@@ -6,7 +6,7 @@ The TI mmWave Config provides a ROS2 interface to configure and control TI mmWav
 
 | ROS2 Version  | Galactic | Humble |
 | ------------- | ------------- | ------------- |
-| Build  |   | ![humble_build](https://github.com/3473f/TI_mmWave_Config_ROS2/actions/workflows/build.yaml/badge.svg) |
+| Build  | ![galactic_build](https://github.com/3473f/TI_mmWave_Config_ROS2/actions/workflows/galactic_build.yaml/badge.svg)  | ![humble_build](https://github.com/3473f/TI_mmWave_Config_ROS2/actions/workflows/humble_build.yaml/badge.svg) |
 
 ## Installation
 1. Install ROS Galactic or Humble.
