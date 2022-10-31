@@ -1,0 +1,4 @@
+ti_mmwave_config_node:
+  ros__parameters:
+    config_port: '/dev/ttyACM0'
+    config_file: '$(find-pkg-share ti_mmwave_config)/config/iwr6843isk.cfg'
