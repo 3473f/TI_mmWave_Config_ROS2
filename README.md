@@ -16,7 +16,7 @@ The package was tested under ROS2 Galactic and Humble on Ubuntu 20.04 and Ubuntu
 3. Clone this repo into your workspace:
 
     ```
-    git clone 
+    git clone https://github.com/3473f/TI_mmWave_Config_ROS2
     ```
 
 4. Install dependencies and build the workspace:
@@ -50,14 +50,14 @@ ros2 launch ti_mmwave_config ti_mmwave_config.launch.py
     
     The path of the sensor configuration file.
 #### Services
-- **`send_config`** (ti_mmwave_config_interface/srv/SendConfig)
+- **`send_config`** ([ti_mmwave_config_interface/srv/SendConfig](https://github.com/3473f/TI_mmWave_Config_ROS2/blob/main/ti_mmwave_config_interface/srv/SendConfig.srv))
 
     Establish a connection to the configuration port and send the configuration to the sensor.
 
-- **`start_sensor`** (ti_mmwave_config_interface/srv/StartSensor)
+- **`start_sensor`** ([ti_mmwave_config_interface/srv/StartSensor](https://github.com/3473f/TI_mmWave_Config_ROS2/blob/main/ti_mmwave_config_interface/srv/StartSensor.srv))
 
     Start the sensor.
 
-- **`stop_sensor`** (ti_mmwave_config_interface/srv/StopSensor)
+- **`stop_sensor`** ([ti_mmwave_config_interface/srv/StopSensor](https://github.com/3473f/TI_mmWave_Config_ROS2/blob/main/ti_mmwave_config_interface/srv/StopSensor.srv))
 
     Stop the sensor.
